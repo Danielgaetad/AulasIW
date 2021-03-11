@@ -1,2 +1,2 @@
-# https://danielgaetad.github.io/AulasIW/
+# https://github.com/Danielgaetad/AulasIW.git
 Pojetos de IW
