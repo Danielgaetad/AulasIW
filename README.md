@@ -1,3 +1,2 @@
-# https://danielgaetad.github.io/PrimeiroSite/
-#https://github.com/Danielgaetad/AulasIW.git
+# https://projetos-danielagaetad.githug.io/AulaIW
 Pojetos de IW
