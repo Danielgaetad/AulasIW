@@ -1,0 +1,47 @@
+/* Aqui ficará o estilo do meu site */
+
+body{
+	background-color: #ddccff; 
+	width: : 80%
+	margin-right: auto;
+	margin-left: auto;
+}
+h1{
+	text-align:center;
+	color: #800080
+
+}
+p{
+	font-size: 25px
+	text-align:justify;
+	font-weight: bold;
+	color: #000000
+}
+h2{
+	color:#b300b3;
+	text-align: 
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
