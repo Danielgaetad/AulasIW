@@ -1,25 +1,30 @@
 /* Aqui ficará o estilo do meu site */
 
 body{
-	background-color: #ddccff; 
+	background-image: url("../img.site/fundo.jpg"); 
 	width: : 80%
 	margin-right: auto;
 	margin-left: auto;
 }
+
 h1{
 	text-align:center;
-	color: #800080
+	color:#800080
 
 }
 p{
-	font-size: 25px
+	font-size: 25px; 
 	text-align:justify;
 	font-weight: bold;
 	color: #000000
+	padding-right:10px;
+	padding-left:10px;
+
 }
 h2{
-	color:#b300b3;
-	text-align: 
+	color:#800080;
+	text-align:
+	
 }
 
 a:link {
@@ -44,4 +49,19 @@ a:active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
+}
+
+table {
+	font-weight: bold;
+	font-size: 25px
+	border-collapse: collapse;
+    width: 80%
+
+}
+
+td, th {
+	border: 1px solid;
+	padding: 8px
+	width: 100%
+	font-size: 25px;
 }
