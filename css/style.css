@@ -2,6 +2,10 @@
 
 body{
 	background-image: url("../img.site/fundo.jpg"); 
+	background-repeat: round;
+}
+
+.container{
 	width: : 80%
 	margin-right: auto;
 	margin-left: auto;
@@ -64,4 +68,8 @@ td, th {
 	padding: 8px
 	width: 100%
 	font-size: 25px;
+}
+
+.centro {
+	text-align: center;
 }
