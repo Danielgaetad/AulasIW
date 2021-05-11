@@ -1,0 +1,90 @@
+@media screen and (min-width: 800px) {
+
+	body{
+		background-image: linear-gradient(to bottom right, turquoise, aquamarine, blue);
+	}
+         
+
+	h1{
+		color: white;
+		text-align: center;
+		font-size: 1.9em;
+		width: 100%;
+		text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	}
+
+	p{
+		font-size: 1.2em; 
+	 text-align:center;
+	 font-weight: bold;
+	 color: #000000;
+	 padding-right:10px;
+	 padding-left:10px;
+	 margin-top: 1.5%;
+	 margin-bottom: 1.5%;
+
+	}
+
+	.imagem{
+         width: 80%;
+         max-width:500px;
+         max-height:450px;
+         width: auto;
+         height: auto;
+     } 
+
+
+	
+
+	.caixa{
+
+		width: 500px;
+		height: 350px;
+		background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+		box-shadow: 8px 8px indigo;
+		transition: width 3s;
+	}
+
+	.caixa:hover{
+		width:900px
+
+	}
+
+
+
+
+}
+
+@media screen and (max-width: 799px) {
+	body{
+		background-image: linear-gradient(to bottom right, blue, aqua, aquamarine);
+	}
+
+	h1{
+		color: blue;
+		text-align: center;
+		font-size: 1.9em;
+		text-shadow: 6px 2px aquamarine;
+	}
+
+	p{
+	 font-size: 1.2em; 
+	 text-align:center;
+	 font-weight: bold;
+	 color: #000000;
+	 padding-right:10px;
+	 padding-left:10px;
+	 margin-top: 1.5%;
+	 margin-bottom: 1.5%;
+
+	}
+
+		.imagem{
+		width: 80%;
+     max-width:500px;
+     max-height:450px;
+     width: auto;
+     height: auto;
+
+
+}
