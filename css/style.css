@@ -1,19 +1,90 @@
 /* Aqui ficará o estilo do meu site */
 
+
 body{
 	background-image: url("../img.site/fundo.jpg"); 
 	background-repeat: round;
+}
+
+html{
+	scroll-behavior: smooth;
 }
 
 .container{
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 25%;
+	position: relative; 
 }
+
+/* Quando a tela for menor que 599px */
+@media screen and (max-width: 599px) {
+	.container{
+		margin-top: 65%;
+	}
+	
+}
+
+/* Quando a tela for maior que 600px */
+@media screen and (min-width: 600px) {
+	.container{
+		margin-top: 40%;
+	}
+	
+}
+
+/* Quando a tela for maior que 768px */
+@media screen and (min-width: 768px) {
+	.container{
+		margin-top: 20%; }
+		 
+	header{
+		background-color: rgba(24,116,205,0.5);
+	    flex-direction: row;
+		position: relative;
+		height: 70px;
+	}
+
+	.menu{
+		position: absolute;
+		right: 5%;
+		top: 45%;
+	}
+
+	.menu ul li{
+		display: inline;
+		margin-left: 10px;
+
+	}
+
+	.logo{
+		position: absolute;
+		top: 5px;
+		left: 4%;
+	}
+
+}
+
 
 header, footer {
 	background-color: rgba(24,116,205,0.5);
-	padding:3%;
+	padding:1%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1.5em;
+	line-height: 1.5;
+
+}
+
+.fixo{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
 }
 
 h1{
@@ -50,7 +121,7 @@ p{
 
 }
 
-ul, li{
+.listastexto{
 	text-decoration: underline;
 	font-weight: bolder;
 	color: #000000;
@@ -58,6 +129,14 @@ ul, li{
 	margin-bottom: 1.5%;
 }
 
+.ajustes{
+	line-height: 1;
+	text-align: center;
+}
+
+.ajustes li:hover{
+	background-color: #708090;
+}
 
 a:link {
   color: green;
@@ -108,3 +187,4 @@ td{
 .centro {
 	text-align: center;
 }
+

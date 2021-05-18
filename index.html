@@ -13,29 +13,45 @@
 
 <body>
 
-	<header>
-		<nav>
-			<img src="img.site/LOGOTIPO IW.png">
-		</nav>
-	</header>
+	<header class="fixo">
+        <h1><img class="logo" src="img.site/LOGOTIPO IW.png"></h1>
+        <nav class="menu">
+            <ul class="ajustes">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#w3c">W3C</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="javascript.html">JavaScript</a></li>
+            </ul>
+            
+        </nav>
+    </header>
 
-	<h1 class="titulos">DESENVOLVIMENTO PARA INTERNET- HTML E CSS</h1>
 
 	<div class="container">
+
+        <h1 class="titulos" id="inicio">DESENVOLVIMENTO PARA INTERNET- HTML E CSS</h1>
 
          <center>
          <img class="imagem" border=10px src="img.site/html-css.png" width="500" height="390">
 
-         <h2 class="titulos">O que é HTML?</h2>
+         <div id="html">
+             <h2 class="titulos">O que é HTML?</h2>
              <P>É a abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de Hipertexto" é uma linguagem de marcação usada para construir páginas da web e documentos HTML podem ser interpretados por navegadores. Essa tecnologia é o resultado da combinação entre os padrões HyTime e SGML</P>
              <P>Para ver alguns exemplos de código HTML clique <a href="https://www.w3schools.com/html/default.asp" target="_blank">aqui</a></P>
              <P>Hipertexto- é o termo que remete a um texto ao qual se agregam outros conjuntos de informação na forma de blocos de textos, palavras, imagens ou sons, cujo acesso se dá através de referências específicas, no meio digital denominadas hiperligações.</P>
+         </div>
 
-         <h2 class="titulos">O que é W3C?</h2>
+         <div id="w3c"> 
+             <h2 class="titulos">O que é W3C?</h2>
              <p>O World Wide Web Consortium é a principal organização de padronização da World Wide Web. É composto por uma aliança internacional com 450 membros, reunindo empresas, agências governamentais e organizações independentes, com o objetivo de estabelecer padrões para a criação e interpretação de conteúdo da Web .</p>
+         </div>
 
-         <h2 class="titulos">O que é CSS?</h2>
+         <div id="css">
+             <h2 class="titulos">O que é CSS?</h2>
              <P>CSS é a sigla para Cascading Style Sheets, ou seja, Folhas de Estilo em Cascatas. É uma maneira de dar estilo ao código criado por linguagens como HTML, XML ou XHTML, por exemplo. De forma prática, ela funciona como uma camada de personalização ao conteúdo visível.</P>
+         </div>
+
          <center>
          <a href="https://www.w3schools.com/css/default.asp" target="_blank"><img class="imagem" border=15px " src="img.site/css-codigo.jpg" alt="exemplos de código CSS" width="500" height="333"></a>
          <P>clique na imagem para ver mais sobre CSS</P>
@@ -45,7 +61,7 @@
              <p>A extensão .html é característica do UNIX que suportava mais de três caracteres.</p>
              <p>Para evitar problemas, foi feita uma conexão e, para fins de compatibilidade, duas extensões foram mantidas. Portanto, é correto dizer que não há diferença entre htm e html, ou seja, o conteúdo da página é o mesmo. Se houver dois documentos com o mesmo nome no mesmo site, um denominado index.html e o outro denominado index.htm, o servidor sempre exibirá index.htm</p>
 
-         <ul>
+         <ul class="listastexto">
 	         <li>Inline - by using the style attribut inside HTML elements</li>
 	         <li>Internal - by using a style element in the head section</li>
 	         <li>External - by using a link element to an external CSS file</li>
