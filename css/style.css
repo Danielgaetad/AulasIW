@@ -16,6 +16,7 @@ html{
 	margin-left: auto;
 	margin-top: 25%;
 	position: relative; 
+	margin-bottom: 10%
 }
 
 /* Quando a tela for menor que 599px */
@@ -77,6 +78,14 @@ header, footer {
 	font-size: 1.5em;
 	line-height: 1.5;
 
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
 }
 
 .fixo{
@@ -186,5 +195,9 @@ td{
 
 .centro {
 	text-align: center;
+}
+
+.fundo{
+	background-color: aqua;
 }
 
