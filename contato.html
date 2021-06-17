@@ -29,56 +29,61 @@
 	<div class="container">
 		<h1 class="titulos">Formulário de contato</h1>
 		     <p class="centro">Caso tenha alguma dúvida, entre em contato conosco!</p>
-		     <form class="fundo">
-		     	 <div>
-		     	     <label>Nome completo: </label><br>
-		     	     <input type="text"><br>
-		         </div>
 
-		         <div>
-		     	     <label>E-mail: </label><br>
-		     	     <input type="text"><br>
-		         </div>
+		     <div  class="fundo">
+			     <form>
+					 <div class="dist">
+		     	         <input type="text" placeholder="Digite seu nome completo."><br>
+		             </div>
 
-		         <div>
-		         	<h2>Gênero</h2>
-		         	     <input type="radio" id="male" name="gender" value="male">
-                         <label for="male">Masculino</label><br>
-                         <input type="radio" id="female" name="gender" value="female">
-                         <label for="female">Feminino</label><br>
-                         <input type="radio" id="other" name="gender" value="other">
-                         <label for="other">Outro</label>
-		         </div>
+		             <div class="dist">
+		     	         <input type="text" placeholder="Digite seu E-mail."><br>
+		             </div>
 
-		         <div>
-		         	<label for="cars">Informe sua idade:</label>
-                     <select id="cars" name="cars">
-                     <option value="volvo">-18</option>
-                     <option value="saab">+18</option>
-                     <option value="fiat">+50</option>
-                     </select>
-		         </div>
+		             <div class="dist">
+		             	<fieldset>
+		             	     <legend>Gênero</legend>
+			         	         <input type="radio" id="male" name="gender" value="male">
+	                             <label for="male">Masculino</label><br>
+	                             <input type="radio" id="female" name="gender" value="female">
+	                             <label for="female">Feminino</label><br>
+	                             <input type="radio" id="other" name="gender" value="other">
+	                             <label for="other">Outro</label>
+	                    </fieldset>
+		             </div>
 
-		         <div>
-		         	<label for="cars">Assunto / Dúvidas:</label>
-		         	<textarea name="message" style="width:200px; height:300px;">Deixe sua mensagem aqui.</textarea><br>
+		             <div class="dist">
+		         	     <label for="cars">Informe sua idade:</label><br>
+                         <select id="cars" name="cars">
+                         <option value="volvo">-18</option>
+                         <option value="saab">+18</option>
+                         <option value="fiat">+50</option>
+                         </select>
+		             </div>
+
+		             <div class="dist">
+		         	     <textarea name="message" style="width:80%; height:300px;" placeholder="Digite aqui sua dúvida/assunto."></textarea><br>
                     
-		         </div>
+		             </div>
 
-		         <div>
-		         	<h2>Está satisfeito com a nossa página?</h2>
-		         	     <input type="checkbox" id="male" name="gender" value="male">
-                         <label for="male">Sim</label><br>
-                         <input type="checkbox" id="female" name="gender" value="female">
-                         <label for="female">Não</label><br>
-                         <input type="checkbox" id="other" name="gender" value="other">
-                         <label for="other">Maios ou menos</label>
-		         </div>
+		             <div class="dist">
+		             	<fieldset>
+		             	     <legend>Está satisfeito com a nossa página?</legend>
+			         	         <input type="checkbox" id="male" name="gender" value="male">
+	                             <label for="male">Sim</label><br>
+	                             <input type="checkbox" id="female" name="gender" value="female">
+	                             <label for="female">Não</label><br>
+	                             <input type="checkbox" id="other" name="gender" value="other">
+	                             <label for="other">Maios ou menos</label>
+                        </fieldset>
+		             </div>
 
-		         <div>
-		         	<input type="submit" value="Enviar">
-		         </div>
-		     </form>
+		             <div class="dist">
+		         	     <input type="submit" value="Enviar">
+		             </div>
+		         </form>
+		     </div>
+		    
 
 
 
