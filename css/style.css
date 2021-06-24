@@ -19,54 +19,62 @@ html{
 	margin-bottom: 10%
 }
 
-/* Quando a tela for menor que 599px */
-@media screen and (max-width: 599px) {
-	.container{
-		margin-top: 65%;
-	}
-	
+#sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 0 auto;
 }
 
-/* Quando a tela for maior que 600px */
-@media screen and (min-width: 600px) {
-	.container{
-		margin-top: 40%;
-	}
-	
+#sobre .sobre{
+	text-align: center;
 }
 
-/* Quando a tela for maior que 768px */
-@media screen and (min-width: 768px) {
-	.container{
-		margin-top: 20%; }
-		 
-	header{
-		background-color: rgba(24,116,205,0.5);
-	    flex-direction: row;
-		position: relative;
-		height: 70px;
-	}
-
-	.menu{
-		position: absolute;
-		right: 5%;
-		top: 45%;
-	}
-
-	.menu ul li{
-		display: inline;
-		margin-left: 10px;
-
-	}
-
-	.logo{
-		position: absolute;
-		top: 5px;
-		left: 4%;
-	}
-
+.imgsobre{
+	width: 20%;
+	height:20%;
 }
 
+.imgsobre:hover{
+	transform: rotate(190deg);
+}
+
+
+#galeria{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 2px 2px;
+}
+
+#galeria .galeria{
+	text-align: center;
+}
+
+.imggaleria{
+	width: 65%;
+	border-radius: 50px;
+	box-shadow: 10px 10px aqua;
+}
+
+.lista{
+	position: relative;
+	margin: 10px 0px;
+}
+
+.lista::before{
+	content: '';
+	position: relative;
+	left: 0;
+	top:0;
+	padding: 10px 15px;
+	background-image: url('../img.site/li.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-right: 5px;
+}
 
 header, footer {
 	background-color: rgba(24,116,205,0.5);
@@ -235,4 +243,72 @@ fieldset{
 	width: 75%;
 	border: 1px solid #ccc;
 	padding: 2%;
+}
+
+/* Quando a tela for menor que 599px */
+@media screen and (max-width: 599px) {
+	.container{
+		margin-top: 65%;
+	}
+	
+}
+
+/* Quando a tela for maior que 600px */
+@media screen and (min-width: 600px) {
+	.container{
+		margin-top: 40%;
+	}
+	
+}
+
+/* Quando a tela for maior que 768px */
+@media screen and (min-width: 768px) {
+	.container{
+		margin-top: 20%; }
+		 
+	header{
+		background-color: rgba(24,116,205,0.5);
+	    flex-direction: row;
+		position: relative;
+		height: 70px;
+	}
+
+	.menu{
+		position: absolute;
+		right: 5%;
+		top: 45%;
+	}
+
+	.menu ul li{
+		display: inline;
+		margin-left: 10px;
+
+	}
+
+	.logo{
+		position: absolute;
+		top: 5px;
+		left: 4%;
+	}
+
+	#sobre, #galeria{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	#sobre h1,h2{
+		width: 100%;
+		text-align: center;
+	}
+
+	#sobre .sobre{
+		width: 25%;
+		text-align: center;
+	}
+
+	#galeria .galeria{
+		width: 50%;
+		text-align: center;
+	}
+
 }
